@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Override CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>VALLES COLLECTION</title>
+</head>
+
+<body class="purple darken-4 white-text">
+
+    <!--Collection 1-->
+    <div class="container">
+        <h3>Collection 1</h3>
+        <ul class="collection">
+            <li class="collection-item white red-text">Kath 1</li>
+            <li class="collection-item white blue-text">Kath 2</li>
+            <li class="collection-item white purple-text">Kath 3</li>
+        </ul>
+    </div>
+    
+    <!--Collection 2-->
+    <div class="container">
+        <h3>Collection 2</h3>
+        <ul class="collection">
+            <a href="#!" class="collection-item white red-text">Valles 1</a>
+            <a href="#!" class="collection-item white blue-text">Valles 2</a>
+            <a href="#!" class="collection-item white purple-text">Valles 3</a>
+        </ul>
+    </div>
+</body>
+
+<!--Floating Action Button-->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large pink pulse">
+            <i class="large material-icons">add</i>
+        </a>
+        <ul>
+            <li><a class="btn-floating red lighten-1"><i class="material-icons">mode_edit</i></a></li>
+            <li><a class="btn-floating blue lighten-1"><i class="material-icons">brush</i></a></li>
+            <li><a class="btn-floating yellow darken-2"><i class="material-icons">get_app</i></a></li>
+        </ul>
+    </div>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script>$(document).ready(function(){
+        $('.fixed-action-btn').floatingActionButton();
+    });</script>
+
+</html>

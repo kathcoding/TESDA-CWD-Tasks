@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Override CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>VALLES MEDIA</title>
+</head>
+
+<body class="black white-text">
+    <div class="container">
+        <h3><center>SOLAR SYSTEM</center></h3>
+    <br>
+
+    <!-- Image -->
+    <h4>Image</h4>
+        <div class="row">
+            <div class="column">
+                <img src="images/galaxy1.jpg" alt="Galaxy One" width="30%">
+                <img src="images/galaxy2.jpg" alt="Galaxy Two" width="30%">
+                <img src="images/galaxy3.jpg" alt="Galaxy Three" width="30%">
+            </div>
+        </div>
+
+    <!-- Circle Image -->
+    <h4>Circle Image</h4>
+        <div class="col s12 m8 offset-m2 16 offset-13">
+            <div class="card-panel white">
+                <div class="row valign-wrapper">
+                    <div class="col s5">
+                        <img src="images/nikolaus.jpg" alt="Nikolaus Copernicus" width="100%" class=circle responsive-img">
+                    </div>
+                    <div class="col s10">
+                        
+                        <span class="black-text">
+                            <h4>Nicolaus Copernicus</h4>
+                            Nicolaus Copernicus, Polish Mikołaj Kopernik, German Nikolaus Kopernikus, (born February 19, 1473, Toruń, Royal Prussia, Poland—died May 24, 1543, Frauenburg, East Prussia [now Frombork, Poland]), Polish astronomer who proposed that the planets have the Sun as the fixed point to which their motions are to be referred; that Earth is a planet which, besides orbiting the Sun annually, also turns once daily on its own axis; and that very slow long-term changes in the direction of this axis account for the precession of the equinoxes. This representation of the heavens is usually called the heliocentric, or “Sun-centred,” system—derived from the Greek helios, meaning “Sun.” Copernicus’s theory had important consequences for later thinkers of the Scientific Revolution, including such major figures as Galileo, Kepler, Descartes, and Newton. Copernicus probably hit upon his main idea sometime between 1508 and 1514, and during those years he wrote a manuscript usually called the Commentariolus (“Little Commentary”). However, the book that contains the final version of his theory, De revolutionibus orbium coelestium libri vi (“Six Books Concerning the Revolutions of the Heavenly Orbs”), did not appear in print until 1543, the year of his death.
+                            (Source: Westman, R. S. (2022) via Encyclopedia Britannica)
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Responsive Embeds-->
+    <h4>YouTube Video Embed</h4>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gYo-ZAx2nzE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+    <!-- Responsive Video-->
+    <h4>Video File</h4>
+        <video class="responsive-video" controls>
+            <source src="images/galaxy.mp4" type="video/mp4">
+        </video>
+
+    <br> <br>
+    <!-- Material Boxed-->
+    <h4> Material Box </h4>
+        <img class="materialboxed" src="images/galaxy4.jpg" alt="Galaxy 4" width="30%">
+        <h4> Material Box with Caption</h4>
+        <img class="materialboxed" data-caption="Moon (from Pixabay)" src="images/moon.jpg" alt="Moon" width="30%">
+    
+    <br> <br>
+    <!--Slider-->
+    <h4>Slider</h4>
+        <div class="slider" duration="500 ms">
+            <ul class="slides">
+                <li>
+                    <img src="images/callisto.png">
+                    <div class="caption center-align white-text">
+                        <h3>Callisto</h3>
+                        <h5 class="white-text">Callisto is the second largest moon in the Jupiter system and is nearly the size of Mercury. It is the most distant of the Galilean moons from Jupiter. It was discovered in 1610 by Galileo Galilei and independently observed by Simon Marius.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/europa.png">
+                    <div class="caption right-align black-text">
+                        <h3>Europa</h3>
+                        <h5 class="black-text">Europa is the smallest of Jupiter’s Galilean moons and the second closest, however it is still the sixth largest moon in the solar system. Europa is known for being one of the first worlds a subsurface water ocean was hypothesised for.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/ganymede.png">
+                    <div class="caption left-align white-text">
+                        <h3>Ganymede</h3>
+                        <h5 class="white-text">Ganymede is Jupiter’s largest moon and also the largest moon in the solar system. Ganymede was discovered in 1610 by astronomer Galileo Galilei and is named for the mythical Greek son of a King who was carried to the sky by Zeus posing as an eagle.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://space-facts.com/wp-content/uploads/io.png">
+                    <div class="caption center-align black-text">
+                        <h3>Io</h3>
+                        <h5 class="black-text">Io is the innermost and the second smallest of the four Galilean moons. It was discovered, along with Europa, Ganymede and Callisto by Galileo Galilei in 1610.</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+</body>
+
+<!--Floating Action Button-->
+    <div class="fixed-action-btn toolbar">
+        <a class="btn-floating btn-large pink pulse">
+            <i class="large material-icons">add</i>
+        </a>
+        <ul>
+            <li><a class="red"><i class="material-icons">mode_edit</i></a></li>
+            <li><a class="blue"><i class="material-icons">brush</i></a></li>
+            <li><a class="yellow"><i class="material-icons">get_app</i></a></li>
+            <li><a class="green"><i class="material-icons">adb</i></a></li>
+        </ul>
+    </div>
+
+    <div style="height: 100px;"></div>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>$(document).ready(function(){
+        $('.fixed-action-btn').floatingActionButton({
+            toolbarEnabled: true
+        });
+    });
+    </script>
+
+    <script>$(document).ready(function(){
+        $('.materialboxed').materialbox();
+    });
+    </script>
+
+    <script>$(document).ready(function(){
+        $('.slider').slider();
+    });
+    </script>
+
+</html>
