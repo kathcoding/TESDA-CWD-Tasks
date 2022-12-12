@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Override CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>MEDIA 2</title>
+</head>
+
+<body class="blue lighten-4">
+    <nav class="large blue accent-1">
+        <div class="container">
+        <div class="nav-wrapper">
+            <a href="Media2.html" class="brand-logo black-text">MEDIA</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="Media.html" class="black-text">Media 1</a></li>
+                <li><a href="collection.html" class="black-text">Collection</a></li>
+                
+        </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!--Slider-->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img class="responsive-img" src="images/nature and universe (1).jpg" ul="Nature and Universe 1">
+                <div class="caption right-align">
+                    <h1 class="green-text accent-3">Nature and Universe Collide</h1>
+                    <h5 class="grey-text text-lighten-2">Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla porttitor accumsan tincidunt.
+                    </h5>
+                </div>
+            </li>
+            <li>
+                <img src="images/nature and universe (2).jpg" ul="Nature and Universe 2" class="responsive-img">
+                <div class="caption center-align">
+                    <h1 class="purple-text">Nature and Universe Collide</h1>
+                    <h5 class="grey-text text-lighten-3">Sed porttitor lectus nibh. Pellentesque in ipsum id orci porta dapibus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="images/nature and universe (3).jpg" ul="Nature and Universe 3" class="responsive-img">
+                <div class="caption left-align">
+                <h1 class="blue-text text-lighten-3">Collided Nature and Universe</h1>
+                <h5 class="grey-text text-lighten-2">Nulla porttitor accumsan tincidunt. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!--Material Box-->
+    <div class="container">
+        <h3 class="center">Media Material Box</h3>
+        <div class="row">
+            <div class="col s12 m6 l4">
+                <img src="images/galaxy1.jpg" alt="Galaxy 1" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 m6 l4">
+                <img src="images/galaxy2.jpg" alt="Galaxy 2" class="responsive-img materialboxed">
+            </div>
+            <div class="col s12 m4 l4 hide-on-med-only">
+                <img src="images/galaxy3.jpg" alt="Galaxy 3" class="responsive-img materialboxed">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<!--JQuery-->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script>$(document).ready(function(){
+    // Material Box
+    $('.materialboxed').materialbox({
+    inDuration: 1000,
+    outDuration: 2000
+    });
+    // Slider
+    $('.slider').slider({
+    height: 600,
+    duration: 1000,
+    indicators: false,
+    interval: 3000
+    })
+});
+</script>
+
+</html>
